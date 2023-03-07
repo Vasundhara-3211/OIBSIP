@@ -1,0 +1,144 @@
+body
+{
+	margin:0;
+}
+.wrapper
+{
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+header
+{
+	height: 500px;
+	width: 100%;
+	background-color: #000;
+	margin: 0;
+}
+.Hero
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 500px;
+	background: url("img/Bill Gates.png");
+	background-size: 400px;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin: 0 auto;
+	width: 1000px;
+	color: white;
+}
+
+h1
+{
+
+	margin-bottom: 15px;
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	font-weight: 200;
+	font-style: normal;
+	letter-spacing: 18px;
+}
+.OnderTXT
+{
+	margin: 0px;
+	font-family: 'Crimson Text',serif;
+	font-size: 36px;
+	font-style: italic;
+	letter-spacing: 6px;
+	color: #989898; 
+}
+.line
+{
+	margin-bottom: 20px;
+	height: 40px;
+	width: 40px;
+	border-bottom: 2px solid #d78e38;
+}
+.date 
+{
+	margin: 0;
+	font-family: 'Crimson Text',serif;
+	font-size: 24px;
+	font-style: normal;
+	letter-spacing: 4px;
+	color: white;
+}
+
+.Binnen
+{
+	width: 1000px;
+	height: 1600px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+.TXT
+{
+	flex: 1.5;
+	margin-top: 20px;
+}
+.TXT h2
+{
+	font-family: 'Playfair Display',serif;
+	font-size: 45px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 4px;
+	margin-bottom: 45px;
+}
+.DeTxt
+{
+	font-family: 'Lora',serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 180%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.Quote
+{
+	flex: 1;
+	height: 1020px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+}
+.binnenQ
+{
+	margin-top: 220px;
+	padding-left: 100px;
+}
+.INquote
+{
+	margin: 0;
+	color: #ca8431;
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 160%;
+}
+.writer
+{
+	margin-top: 20px;
+	color: #8c8c8c;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 200;
+	font-style: italic;
+}
+a
+{
+	text-decoration: none;
+	color: #5b84c8;
+}
+.Psite
+{
+	font-weight: 700;
+	font-style: bold;
+}
